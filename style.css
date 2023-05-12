@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-:root{
+:root {
   font-size: 10px;
 }
 body {
@@ -16,8 +16,8 @@ body {
   grid-template: auto 3fr/ 300px 1fr;
   min-height: 100vh;
 }
-.main-container > div{
-    border: 1px solid #000;
+.main-container > div {
+  border: 1px solid #000;
 }
 .header {
   grid-column: 2/-1;
@@ -31,19 +31,21 @@ body {
   padding: 2rem;
   margin: 2rem;
 }
-.sidebar-title{
+.sidebar-title {
   font-size: 2.4rem;
 }
-.menu-container{
+.menu-container {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
 }
-.menu-item{
+.menu-item {
   font-size: 1.8rem;
 }
-.main-content{
+.main-content {
   display: grid;
   grid-template-columns: 1fr auto;
 }
-
+svg {
+  height: 1.2em;
+}
