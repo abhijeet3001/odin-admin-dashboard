@@ -21,6 +21,7 @@ body {
 }
 .header {
   grid-column: 2/-1;
+  display: grid;
 }
 .sidebar {
   grid-area: 1/1/-1/2;
@@ -40,5 +41,9 @@ body {
 }
 .menu-item{
   font-size: 1.8rem;
+}
+.main-content{
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
