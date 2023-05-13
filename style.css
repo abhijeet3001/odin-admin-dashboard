@@ -92,16 +92,17 @@ body {
   padding: 1.6rem;
   gap: 2rem;
 }
-.main-content h3{
+.main-content h3 {
   font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+.projects-container {
+  margin: 2rem;
 }
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-}
-.projects h3 {
-  grid-column: 1/-1;
 }
 .projects > .card {
   height: 180px;
