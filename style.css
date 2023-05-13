@@ -76,7 +76,10 @@ body {
   margin: 2rem;
 }
 .sidebar-title {
+  margin-left: -0.8rem;
   font-size: 2.4rem;
+  display: flex;
+  gap: 0.8rem;
 }
 .menu-container {
   display: flex;
@@ -85,6 +88,8 @@ body {
 }
 .menu-item {
   font-size: 1.8rem;
+  display: flex;
+  gap: 1rem;
 }
 .main-content {
   display: grid;
