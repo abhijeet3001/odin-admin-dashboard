@@ -90,31 +90,38 @@ body {
   display: grid;
   grid-template-columns: 1fr auto;
   padding: 1rem;
-  gap:2rem;
+  gap: 2rem;
 }
-.projects{
+.projects {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.projects h3{
+.projects h3 {
   grid-column: 1/-1;
 }
-.card{
+.card {
   height: 200px;
   width: 300px;
   border: 1px solid #000;
 }
-.featured-sidebar > div{
+.featured-sidebar > div {
   margin: 2rem;
 }
-.featured-sidebar .card{
+.featured-sidebar .card {
   display: grid;
   height: 300px;
   width: 250px;
-  padding: 10px;
+  padding: 2rem;
 }
-.trending > .card-item{
+.announcement div:nth-child(n + 2) {
+  padding-top: 1rem;
+  border-top: 1px solid #000;
+}
+.announcement > .card-item p:first-child {
+  font-weight: bold;
+}
+.trending > .card-item {
   display: flex;
   align-items: center;
   gap: 20px;
