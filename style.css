@@ -7,11 +7,11 @@
   padding: 0;
   box-sizing: border-box;
   /* Colors */
-  --color-bg-1:rgb(162, 233, 238);
-  --color-bg-2:gray;
-  --content-border-color: yellow;
-  --color-1:blue;
-  --color-2:white;
+  --color-bg-1: #ffffff;
+  --color-bg-2: #dee2e6;
+  --content-border-color: #07d663;
+  --color-1: #8338ec;
+  --color-2: white;
 }
 body {
   font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
@@ -40,6 +40,9 @@ body {
   gap: 20px;
   padding: 0 2.2rem 1rem;
   font-weight: bold;
+}
+.header-bar-1 > img {
+  font-size: 2rem;
 }
 .header-bar-1 > input {
   margin-right: auto;
@@ -88,7 +91,7 @@ body {
   background-color: var(--color-1);
   color: var(--color-2);
 }
-.sidebar .icon{
+.sidebar .icon {
   fill: var(--color-2);
 }
 .sidebar-title {
@@ -113,7 +116,6 @@ body {
   padding: 1.6rem;
   gap: 2rem;
   background-color: var(--color-bg-2);
-
 }
 .main-content h3 {
   font-size: 1.6rem;
@@ -126,6 +128,9 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+.card p:nth-child(n + 2) {
+  color: #495057;
 }
 .projects > .card {
   height: 180px;
@@ -141,7 +146,7 @@ body {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.card-icons{
+.card-icons {
   margin-top: 6rem;
   display: flex;
   font-size: 1.6rem;
@@ -180,7 +185,7 @@ body {
   font-size: 1.2rem;
 }
 .trending img {
-  height: 3.5rem;
+  height: 4rem;
 }
 img {
   height: 2em;
