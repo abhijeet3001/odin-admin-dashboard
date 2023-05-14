@@ -21,7 +21,7 @@ body {
 
 .main-container {
   display: grid;
-  grid-template: auto 3fr/ 300px 1fr;
+  grid-template: auto 3fr / minmax(240px, 300px) 1fr;
   min-height: 100vh;
 }
 /* .main-container > div {
@@ -47,6 +47,7 @@ body {
 .header-bar-1 > input {
   margin-right: auto;
   height: 2.5rem;
+  padding-left: 1.2rem;
   width: clamp(100px, 60%, 500px);
   border: none;
   border-radius: 20px;
@@ -75,7 +76,7 @@ body {
 }
 .header-bar-2 > button {
   height: 3rem;
-  width: 100px;
+  width: 80px;
   background-color: var(--color-1);
   color: var(--color-2);
   border: none;
@@ -114,7 +115,6 @@ body {
   display: grid;
   grid-template-columns: 1fr auto;
   padding: 1.6rem;
-  gap: 2rem;
   background-color: var(--color-bg-2);
 }
 .main-content h3 {
@@ -126,18 +126,17 @@ body {
 }
 .projects {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
   gap: 20px;
 }
-.card{
+.card {
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
 }
 .card p:nth-child(n + 2) {
   color: #495057;
 }
 .projects > .card {
-  height: 180px;
-  width: 320px;
+  height: auto;
   border: none;
   font-size: 1.2rem;
   padding: 2rem;
