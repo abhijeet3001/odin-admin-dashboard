@@ -24,13 +24,13 @@ body {
   grid-template: auto 3fr/ 300px 1fr;
   min-height: 100vh;
 }
-.main-container > div {
+/* .main-container > div {
   border: 1px solid #000;
-}
+} */
 .header {
   grid-column: 2/-1;
   display: grid;
-  margin-top: 2rem;
+  padding-top: 2rem;
   background-color: var(--color-bg-1);
 }
 .header-bar-1 {
@@ -45,8 +45,9 @@ body {
   margin-right: auto;
   height: 2.5rem;
   width: clamp(100px, 60%, 500px);
-  border: 1px solid #000;
+  border: none;
   border-radius: 20px;
+  background-color: var(--color-bg-2);
 }
 .header-bar-2 {
   display: flex;
@@ -83,8 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 0 2rem 0;
-  margin: 2rem;
+  padding: 2rem 4rem 0;
   background-color: var(--color-1);
   color: var(--color-2);
 }
@@ -130,7 +130,7 @@ body {
 .projects > .card {
   height: 180px;
   width: 320px;
-  border: 1px solid #000;
+  border: none;
   font-size: 1.2rem;
   padding: 2rem;
   border-left: 8px solid var(--content-border-color);
@@ -153,10 +153,10 @@ body {
 }
 .featured-sidebar .card {
   display: grid;
-  height: 300px;
-  width: 250px;
+  height: 280px;
+  width: 240px;
   padding: 2rem;
-  border: 1px solid #000;
+  border: none;
   border-radius: 8px;
   background-color: var(--color-bg-1);
 }
@@ -169,7 +169,7 @@ body {
   font-size: 1.2rem;
 }
 .trending.card {
-  height: 280px;
+  height: 270px;
   padding-top: 5px;
 }
 
