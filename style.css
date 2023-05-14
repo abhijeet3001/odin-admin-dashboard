@@ -122,6 +122,13 @@ body {
   font-weight: bold;
   font-size: 1.5rem;
 }
+.card-icons{
+  margin-top: 6rem;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: end;
+  gap: 10px;
+}
 .featured-sidebar > div {
   margin: 2rem;
 }
